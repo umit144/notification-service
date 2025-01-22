@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	DatabaseDSN = "sail:password@tcp(localhost:3306)/laravel"
+	DatabaseDSN = "sail:password@tcp(host.docker.internal:3306)/laravel"
 )
 
 type Client struct {

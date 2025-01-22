@@ -19,7 +19,7 @@ const (
 	MaxRetryAttempts    = 3
 	RetryDelay          = 2 * time.Second
 	RequestTimeout      = 10 * time.Second
-	RedisAddress        = "localhost:6379"
+	RedisAddress        = "redis:6379"
 	RedisPassword       = ""
 	RedisDB             = 0
 	NotificationChannel = "notifications.subscription.updated"
